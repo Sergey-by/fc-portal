@@ -1,0 +1,16 @@
+{
+  "name": "FCPortal_server",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "devDependencies": {
+    "express": "3.x"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "body-parser": "^1.8.1",
+    "formidable": "^1.0.15",
+    "fs-extra": "^0.11.1"
+  }
+}

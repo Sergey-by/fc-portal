@@ -1,0 +1,168 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*======================================================*/
+body{
+	width: 100%;
+	background-color: #a4d1e7;
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	width: 100%;
+	min-height: 200px;
+	background-size: contain;
+
+}
+.bcg_top{
+	background: url(../img/bcg_world_island_small.png) no-repeat;
+	height: 418px;
+	width: 1000px;
+	margin: 0px auto -200px auto;
+}
+.footer{
+	width: 100%;
+	height: 50px;
+	background-color: lightgreen;
+}
+.content{
+	width: 100%;
+	text-align: center;
+}
+.content .vote_wrapper_margin_top{
+	height: 20px;
+	width: 800px;
+	margin: 0px auto;
+	background: url(../img/bcg_content_wood_top.png) no-repeat;
+}
+.content .vote_wrapper_margin_bottom{
+	height: 20px;
+	width: 800px;
+	margin: 0px auto;
+	background: url(../img/bcg_content_wood_bottom.png) no-repeat;
+}
+.content .vote_wrapper{
+	display: block;
+	margin: 0px auto;
+	width: 780px;
+	min-height: 200px;
+	padding: 0px 10px;
+	background: url(../img/bcg_content_wood.png) repeat-y;
+}
+.content .vote_wrapper .vote_container{
+	padding: 10px;
+	background-image: url(../img/bcg_content_pepper.png);
+	border-radius: 3px;
+}
+.content .vote_wrapper .var_row{
+	height: 95px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	background-color: #d5d3b1;
+	/*order: 1px solid gray;*/
+	/*background: url(../img/bcg_content_pepper_light.png);*/
+}
+.content .vote_wrapper .var_row:last-child{
+	margin-bottom: 0px;
+}
+
+.content .vote_wrapper .var_row>div{
+	display: inline-block;
+	height: 85px;
+	overflow: hidden;
+	padding: 5px;
+	margin: 0px 10px;
+}
+.content .vote_wrapper .preview_num{
+	width: 100px;
+	height: 85px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 85px;
+	/*background: url(../img/bcg_content_wood_light.png) repeat-y;*/
+}
+.content .vote_wrapper .preview_num img{
+	margin: 0px 10px;
+	vertical-align: middle;
+}
+.content .vote_wrapper .preview_num span{
+	vertical-align: middle;
+}
+.content .vote_wrapper .preview_big{
+	height: 85px;
+	width: 85px;
+}
+.content .vote_wrapper .preview_big img{
+	height: 85px;
+	width: 85px;
+}
+.content .vote_wrapper .preview_raiting{
+	width: 170px;
+	height: 45px;
+	text-align: left;
+	background: url(../img/vote/bcg_logo_placeholder_raiting.png) no-repeat;
+	background-size: contain;
+	background-position: 0px 25px;
+}
+.content .vote_wrapper .preview_raiting img{
+	position: relative;
+	left: 45px;
+	top: 35px;
+
+}
+.vote_wrapper .img18{
+	width: 18px;
+	height: 18px;
+}
+.content .vote_wrapper .preview_home{
+	width: 267px;
+	text-align: left;
+	background: url(../img/vote/bcg_logo_placeholder_main.png) no-repeat;
+	background-size: contain;
+	background-position: 0px 3px;
+}
+.content .vote_wrapper .preview_home img{
+	position: relative;
+	left: 98px;
+	top: 33px;
+}
